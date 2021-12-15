@@ -21,5 +21,6 @@ body {
 .btn-stylish{
      background: url('/assets/imgs/btn.png');
      background-repeat: no-repeat;
+     background-position: fixed;
      background-size: 100% 100%;
 }
