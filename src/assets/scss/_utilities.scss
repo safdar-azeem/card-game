@@ -32,6 +32,7 @@ $utilities: map-merge(
         0: 0,
         25: .25,
         50: .5,
+        60: .65,
         75: .75,
         100: 1,
       )
@@ -154,11 +155,11 @@ $utilities: map-merge(
       responsive: true,
       class: w,
       values: (
-        sm:210px,
+        sm:234.77px,
         md:280px,
         md2:345px,
         lg:400px,
-        lg2:450px,
+        lg2:430.08px,
         xl:500px,
         xl2:600px,
         25: 25%,
@@ -197,9 +198,10 @@ $utilities: map-merge(
     ),
     "height": (
       property: height,
+       responsive: true,
       class: h,
       values: (
-        sm:210px,
+        sm:234.77px,
         md:280px,
         md2:345px,
         lg:400px,
@@ -567,6 +569,7 @@ $utilities: map-merge(
       values: (
         25: .25,
         50: .5,
+        60: .65,
         75: .75,
         100: 1
       )
@@ -593,6 +596,7 @@ $utilities: map-merge(
         10: .3,
         25: .4,
         50: .58,
+        60: .65,
         75: .75,
         100: 1
       )

@@ -4,10 +4,10 @@ import {Routes} from '../routes'
 
 const App = () => {
     return (
-			<div className="pt-9">
-			<header className="text-center">
-				<h1 className="fs-39">CARD  GAME</h1>
-			</header>
+			<div className='pt-7'>
+				<header className='text-center'>
+					<h1 className='fs-39 bold'>CARD GAME</h1>
+				</header>
 				<Switch>
 					{Routes.map((route, idx) => (
 						<Route

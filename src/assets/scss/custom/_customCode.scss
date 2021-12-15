@@ -386,3 +386,12 @@ img{
     overflow-x: auto !important;
     white-space: nowrap !important;
 }
+
+.details-card{
+    background: radial-gradient(302.17% 282.98% at 0% -9.11%, rgba(90, 99, 111, 0.87) 1.39%, #313740 51.88%, #1f2123 98.44%);
+    border-radius: 23.6408px;
+}
+
+.gradient-hover:hover{
+        background: radial-gradient(302.17% 282.98% at 0% -9.11%, rgba(90, 99, 111, 0.416) 1.39%, #3137407a 51.88%, #1f2123b7 98.44%);
+}
